@@ -9,8 +9,8 @@ def toMorse():
     chars = sentence.lower()
     for char in chars:
         morse.append(morse_dict[char])
-        morse_setence = " ".join(morse)
-    print(morse_setence)
+        morse_sentence = " ".join(morse)
+    print(morse_sentence)
     toContinue()
     
 
